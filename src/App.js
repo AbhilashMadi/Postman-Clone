@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useState } from "react";
 
-import "./App.css"
+import RequestPanel from "./components/Panels/RequestPanel/RequestPanel";
+import ResponsePanel from "./components/Panels/RequestPanel/RequestPanel";
+
+import "./App.css";
 
 const App = () => {
-  return (
-    <div>
-      React App
-    </div>
-  )
-}
+  
+  const [response, setResponse] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-export default App
+  return (
+    <div className="app">
+      <RequestPanel setResponse={setResponse} setLoading={setLoading} />
+      <ResponsePanel setResponse={setResponse} setLoading={setLoading} />
+    </div>
+  );
+};
+
+export default App;
