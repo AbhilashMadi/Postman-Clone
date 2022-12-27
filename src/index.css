@@ -1,0 +1,14 @@
+::-webkit-scrollbar:horizontal {
+  height: 5px !important;
+}
+::-webkit-scrollbar:vertical {
+  width: 5px !important;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: rgb(167, 167, 167);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: rgb(167, 167, 167);
+  border-radius: 10px;
+}
