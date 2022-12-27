@@ -1,5 +1,4 @@
-{ 
-  "homepage": "https://github.com/AbhilashMadi/Postman-Clone",
+{
   "name": "postman-clone",
   "version": "0.1.0",
   "private": true,
@@ -18,15 +17,13 @@
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.4",
     "uuid": "^9.0.0",
-    "web-vitals": "^2.1.4",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
