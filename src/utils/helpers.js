@@ -3,11 +3,11 @@ const convertKeyValueToObject = (keyPairs) => {
     const key = pair.keyItem;
     const value = pair.valueItem;
 
-    if (key === "") {
-      return data;
-    }
-
-    return { ...data, [key]: value };
+    if (key === "") return data;
+    return {
+      ...data,
+      [key]: value,
+    };
   }, {});
 };
 
