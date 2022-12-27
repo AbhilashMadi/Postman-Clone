@@ -1,4 +1,5 @@
-{
+{ 
+  "homepage": "https://github.com/AbhilashMadi/Postman-Clone",
   "name": "postman-clone",
   "version": "0.1.0",
   "private": true,
@@ -25,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,8 +48,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  
-  "homepage": "https://github.com/AbhilashMadi/Postman-Clone"
-
+  }
 }
