@@ -1,5 +1,5 @@
 ### Postman Alternate
-- This is a simple clone of the popular API testing tool, Postman, built with React. It allows you to send HTTP requests to a server and view the response.
+- This is a alternate for the popular API testing tool, Postman, built with React. It allows you to send HTTP requests to a server and view the response.
 
 > #### About Project
 - User can eaily Send HTTP requests (GET, POST, PUT, DELETE, PATCH) to a server.
