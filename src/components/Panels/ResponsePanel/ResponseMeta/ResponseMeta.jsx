@@ -11,7 +11,7 @@ const blue = "https://iili.io/HTxEf2t.png";
 const yellow = "https://iili.io/HTxGqPV.md.png";
 
 const [url, setUrl] = useState("");
-const [message,setMessage] = useState("...")
+const [message,setMessage] = useState("")
 console.log(status)
 
 useEffect(()=>{

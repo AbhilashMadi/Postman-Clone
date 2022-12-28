@@ -17,39 +17,29 @@ const ResponseHeaders = ({response }) => {
   }
 
   const renderedHeaders = responseHeaders.map(({key, value}) => {
-    
     return (
       <Grid.Row key={key}>
-        <Grid.Column 
+        <Grid.Column
           computer={2}
           tablet={5}
           mobile={7}>
           {key}
         </Grid.Column>
-        <Grid.Column 
-          computer={3}
-          tablet={5}
-          mobile={7}>
+        <Grid.Column computer={3} tablet={5} mobile={7}>
           {value}
         </Grid.Column>
       </Grid.Row>
-    )
+    );
 
   })
 
   return (
-    <Grid>
+    <Grid className='tableRow'>
       <Grid.Row>
-        <Grid.Column 
-          computer={2}
-          tablet={5}
-          mobile={7}>
+        <Grid.Column computer={2} tablet={5} mobile={7}>
           <h4>Key</h4>
         </Grid.Column>
-        <Grid.Column
-          computer={3}
-          tablet={5}
-          mobile={7}>
+        <Grid.Column computer={3} tablet={5} mobile={7}>
           <h4>Value</h4>
         </Grid.Column>
       </Grid.Row>
