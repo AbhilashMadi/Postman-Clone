@@ -74,6 +74,7 @@ const AddKeyValue = ({ keyPair, setKeyPair, onKeyPairRemove }) => {
             tablet={4}
             mobile={6}>
             <Button
+              className='remove'
               fluid
               onClick={()=> onKeyPairRemove(keyPair)}
               >Remove

@@ -62,6 +62,7 @@ const InputBar = ({ url, setUrl, httpMethod, setHttpMethod, onInputSend }) => {
               />   
             <div className="button">
               <Button
+                className="add"
                 basic
                 color={color}
                 size={size} 

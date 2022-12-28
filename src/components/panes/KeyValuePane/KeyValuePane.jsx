@@ -52,6 +52,7 @@ const KeyValuePane = ({ keyPairs, setKeyPairs }) => {
     <React.Fragment>
       {renderedList}
       <Button
+      className='add'
         basic
         color={color} 
         onClick={() => onKeyPairAdd()}>Add</Button>

@@ -14,5 +14,9 @@
 }
 
 .tableRow .row:nth-of-type(even){
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(244, 244, 244);
+}
+
+.send:active,.add:active, .remove:active{
+  scale: 0.98;
 }
